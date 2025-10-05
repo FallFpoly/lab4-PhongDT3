@@ -8,9 +8,12 @@ package com.mycompany.lab4;
  *
  * @author ICT
  */
-public class gvthem {
+public class MainSP1 {
 
     public static void main(String[] args) {
-        System.out.println("Nguyen Hoang Phong");
+        SanPham1 sp=new SanPham1();
+        sp.nhap();
+        System.out.println("   -- SAN PHAM --"); 
+        sp.xuat();
     }
 }
